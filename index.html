@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5 Sentence Story</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo-icon">
+                <a href="#home">
+                    <img src="icon.png" alt="5 Sentence Story Icon" class="icon-image">
+                </a>
+            </div>
+            <div class="site-title">
+                <img src="logo71.png" alt="5 Sentence Story Logo" class="logo">
+                <p class="welcome-message">Welcome to the world of 5-sentence stories! Share your imagination and upvote your favorites!</p>
+            </div>
+        </div>
+
+        <nav class="nav-container">
+            <a href="#home" class="nav-button">Home</a>
+            <a href="#submit-section" class="nav-button">Submit</a>
+            <a href="#about-us" class="nav-button">About</a>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div id="stories">
+            <!-- Three example stories loaded initially -->
+            <div class="story">
+                <p>This is an example story to get started. Each story has exactly five sentences. Upvote stories you like to rank them higher!</p>
+                <button class="upvote-btn"><img src="up-arrow.png" class="upvote-icon" /> 0</button>
+            </div>
+            <div class="story">
+                <p>Here’s another 5-sentence story for you. Play around with the upvotes to see how they work. Enjoy the creativity!</p>
+                <button class="upvote-btn"><img src="up-arrow.png" class="upvote-icon" /> 0</button>
+            </div>
+            <div class="story">
+                <p>Make sure to submit your own five-sentence story. Use the form below to get started!</p>
+                <button class="upvote-btn"><img src="up-arrow.png" class="upvote-icon" /> 0</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="submit-section">
+        <textarea id="story-text" placeholder="Write your 5-sentence story here..."></textarea>
+        <button id="submit-btn">Post Now</button>
+    </section>
+
+    <section id="about-us">
+        <h3>About</h3>
+        <p>Welcome to the world of 5-sentence stories!</p>
+        <p>Submit your own story and use the upvote feature to push the best stories to the top. Each story must have exactly 5 sentences.</p>
+        <p>The more upvotes a story has, the higher it ranks on the page. Start voting to see how it works!</p>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
